@@ -150,11 +150,15 @@ nav a:hover {
 }
 
 .banner_hours {
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #fff;
 
+}
+
+.hora {
+    text-align: right;
 }
 
 #geral {
