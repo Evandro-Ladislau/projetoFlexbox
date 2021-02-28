@@ -6,7 +6,7 @@
 body {
    margin: 0;
    padding: 0;
-   padding-bottom: 300px;
+   
 
 }
 
@@ -252,7 +252,6 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-
 .reatangulo{
     background-color:#39aae1;
     width: 135px;
@@ -260,9 +259,100 @@ article .news_resume {
     padding: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
-    
-    
-    
    
     
+}
+
+
+
+
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+
+   
+    
+}
+
+.footer_menu a{
+    display: block;
+    color: #fff; 
+}
+
+.footer_menu a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fn_1, .fn_2, .fn_3 {
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fn_1 {
+    background-color: #39aae1;
+    
+    
+}
+
+.fn_2 {
+    background-color: #0079c7 ;
+    
+}
+
+.fn_3 {
+    background-color: #2b4c99;
+    
+}
+
+.footer_area {
+    display: flex;
+    
+    
+}
+.footer_areaitem{
+    flex: 1;
+    color: #fff;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_titte_text{
+    color: #fff;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .footer_local{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
 }
